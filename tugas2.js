@@ -21,7 +21,7 @@ const getMonth = (callback) => {
           "November",
           "December",
         ];
-        if (!error == true) {
+        if (!error) {
           callback(null, month);
         } else {
           callback(new Error("Sorry Data Not Found", []));
